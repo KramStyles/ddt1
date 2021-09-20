@@ -52,22 +52,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0">
 
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="236dp"
-            android:layout_height="312dp"
-            app:srcCompat="@drawable/learn" />
-
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/montserrat"
-            android:text="for kids"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="24sp" />
-
         <TextView
             android:id="@+id/textView14"
             android:layout_width="match_parent"
@@ -79,6 +63,22 @@
             android:textAlignment="center"
             android:textColor="@color/purple_500"
             android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="for kids"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="236dp"
+            android:layout_height="312dp"
+            app:srcCompat="@drawable/learn" />
 
         <TextView
             android:id="@+id/textView17"
@@ -110,15 +110,6 @@
                 android:orientation="horizontal"
                 android:padding="20dp">
 
-                <ImageView
-                    android:id="@+id/imageView6"
-                    android:layout_width="0dp"
-                    android:layout_height="42dp"
-                    android:layout_weight="1"
-                    android:baselineAlignBottom="false"
-                    android:textAlignment="textEnd"
-                    app:srcCompat="@drawable/ic_bubble" />
-
                 <TextView
                     android:id="@+id/textView18"
                     android:layout_width="wrap_content"
@@ -127,6 +118,15 @@
                     android:fontFamily="@font/montserrat_bold"
                     android:text="Start Learning"
                     android:textColor="@color/white" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="1"
+                    android:baselineAlignBottom="false"
+                    android:textAlignment="textEnd"
+                    app:srcCompat="@drawable/ic_bubble" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
