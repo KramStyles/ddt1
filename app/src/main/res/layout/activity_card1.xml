@@ -196,6 +196,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:contentDescription="@string/heading1"
+                        android:onClick="goToSecond"
                         app:srcCompat="@drawable/ic_turned" />
 
                     <ImageView
