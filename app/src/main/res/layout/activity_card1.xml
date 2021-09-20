@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/box_inset_layout_padding"
-    tools:context=".card1" >
+    android:background="@color/grey"
+    tools:context=".card1">
 
     <androidx.cardview.widget.CardView
         android:layout_width="0dp"
@@ -13,6 +13,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        app:cardCornerRadius="1dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -78,7 +79,7 @@
                         android:id="@+id/textView4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="5dp"
+                        android:layout_marginEnd="5dp"
                         android:layout_weight="1"
                         android:background="@color/teal_700"
                         android:fontFamily="@font/montserrat_bold"
@@ -91,6 +92,7 @@
                         android:layout_width="62dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:contentDescription="@string/heading1"
                         app:srcCompat="@drawable/ic_turned" />
 
                     <ImageView
@@ -98,8 +100,11 @@
                         android:layout_width="24dp"
                         android:layout_height="24dp"
                         android:layout_weight="1"
+                        android:contentDescription="@string/heading1"
                         app:srcCompat="@drawable/ic_baseline_share_24" />
+
                 </LinearLayout>
+
             </LinearLayout>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
