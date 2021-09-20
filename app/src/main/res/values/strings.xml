@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DDT1</string>
+    <string name="heading1">Lorem ipsum dolor sit amet</string>
+    <string name="text2">Call</string>
+    <string name="text3">Route</string>
+    <string name="text4">Share</string>
+    <string name="tagline">consectetur adipiscing elit, sed do</string>
+    <string name="text1">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="title_activity_card1">card1</string>
+    <string name="name">Michael Jamie</string>
+    <string name="time">2 Mins ago</string>
+    <string name="blog">Blog</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>
