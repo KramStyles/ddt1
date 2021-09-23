@@ -42,7 +42,6 @@
         android:id="@+id/gridLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
@@ -171,14 +170,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gridLayout3">
 
-        <androidx.cardview.widget.CardView
+        <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="50dp"
+            app:cardElevation="0dp"
             app:contentPadding="10dp"
-            app:layout_gravity="center_horizontal|center_vertical">
+            app:layout_gravity="center_horizontal|center_vertical"
+            app:strokeColor="@color/grey"
+            app:strokeWidth="1dp">
 
             <androidx.gridlayout.widget.GridLayout
                 android:layout_width="match_parent"
@@ -233,7 +235,9 @@
 
             </androidx.gridlayout.widget.GridLayout>
 
-        </androidx.cardview.widget.CardView>
+        </com.google.android.material.card.MaterialCardView>
+
+
 
     </androidx.gridlayout.widget.GridLayout>
 
