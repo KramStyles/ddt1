@@ -180,7 +180,7 @@
             app:contentPadding="10dp"
             app:layout_gravity="center_horizontal|center_vertical"
             app:strokeColor="@color/grey"
-            app:strokeWidth="1dp">
+            app:strokeWidth="3dp">
 
             <androidx.gridlayout.widget.GridLayout
                 android:layout_width="match_parent"
@@ -246,6 +246,7 @@
         android:layout_height="wrap_content"
 
         android:layout_marginStart="24dp"
+        android:layout_marginTop="-8dp"
         android:layout_marginEnd="24dp"
         android:fontFamily="@font/montserrat"
         android:padding="20dp"
